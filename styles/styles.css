@@ -1,0 +1,160 @@
+button {
+    padding: 8px 15px;
+    background-color: #A4D1BD;
+    /* Green */
+    color: #190304;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #190304;
+    border-bottom: 2px solid #efefef;
+    padding-bottom: 10px;
+}
+
+p {
+    color: #190304;
+    margin: 10px 0;
+}
+
+.highlight {
+    color: #d35400;
+    font-weight: bold;
+}
+
+.pix-code {
+    word-wrap: break-word;
+    background-color: #efefef;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+#message {
+    visibility: hidden;
+    color: #190304d5;
+    margin: 10px 0;
+    font-family: 'Roboto';
+    line-height: 1.6;
+    font-size: medium;
+}
+
+.qrcode-img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.doctor-card {
+    background-color: #f5f6ef;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-card h3 {
+    margin-top: 0;
+    font-weight: 500;
+    /* Less weight than bold */
+}
+
+.doctor-card h3 {
+    margin-top: 0;
+    font-weight: 500;
+    /* Less weight than bold */
+    padding-bottom: 5px;
+    /* Add padding to create space for the line */
+    border-bottom: 2px solid #e0d8d8;
+    /* Line below the h3 element */
+}
+
+ul {
+    list-style-type: none;
+    /* Removes default list styling */
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+    /* Adds space between links */
+}
+
+ul li a {
+    text-decoration: none;
+    /* Removes underline */
+    color: #0a4385;
+    /* Custom color */
+    transition: color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+ul li a:hover,
+ul li a:focus {
+    color: #d35400;
+    /* Highlight color on hover/focus */
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    /* Adjust the space between buttons as needed */
+}
+
+.button {
+    padding: 8px 15px;
+    background-color: #A4D1BD;
+    color: #190304;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Smooth transition for color and background */
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #cae4dacb;
+    /* Or any other color you prefer for the background */
+    color: #2e0507;
+    /* Changes text color on hover/focus */
+}
+
+/* Ensure you have responsive rules for smaller screens */
+@media (max-width: 768px) {
+    .button-group {
+        flex-direction: column;
+        gap: 5px;
+        /* Less gap for vertical layout */
+    }
+}
